@@ -1,3 +1,7 @@
+.hero {
+    background-color: #ff98f3;
+}
+
 .section-banners {
     padding-bottom: 48px;
 
@@ -22,7 +26,7 @@
         width: 320px;
     }
 
-    @include contentMedia($tablet) {
+    @media screen and (min-width: 768px) {
         width: 768px;
     }
 
@@ -39,7 +43,7 @@
     text-align: start;
     white-space: pre-line;
 
-    @include contentMedia($tablet) {
+    @media screen and (min-width: 480px) {
         font-size: 56px;
         line-height: 1.18;
     }
@@ -47,19 +51,19 @@
     left: 24px;
     bottom: 38px;
 
-    @include contentMedia($tablet) {
+    @media screen and (min-width: 768px) {
         left: 41px;
         bottom: 14px;
     }
 
-    @include contentMedia($desktop) {
+    @media screen and (min-width: 1200px) {
         left: 345px;
         bottom: 49px;
     }
 }
 
 .text-shop-products {
-    @include contentMedia($desktop) {
+    @media screen and (min-width: 1200px) {
         left: 49px;
     }
 }
@@ -89,7 +93,7 @@
     background-clip: text;
     color: transparent;
 
-    @include contentMedia($desktop) {
+    @media screen and (min-width: 1200px) {
         background: linear-gradient(270deg,
                 #03fe8f 4.61%,
                 #ebdcff 57.91%,
@@ -110,7 +114,7 @@
     background-clip: text;
     color: transparent;
 
-    @include contentMedia($tablet) {
+    @media screen and (min-width: 768px) {
         background: linear-gradient(270deg,
                 #ffffff 27.78%,
                 #693cf9 66.49%,
@@ -120,7 +124,7 @@
         background-clip: text;
     }
 
-    @include contentMedia($desktop) {
+    @media screen and (min-width: 1200px) {
         background: linear-gradient(270deg,
                 #ffffff 13.26%,
                 #693cf9 60.87%,

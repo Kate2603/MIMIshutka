@@ -62,55 +62,6 @@
         }
     }
     
-    .social {
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        margin-top: 60px;
-        margin-bottom: 20px;
-    }
-    
-    .social__paragraph {
-        @include font (700, 14px, 16px);
-
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--third-text-color);
-        margin-bottom: 20px;
-    }
-    
-    .social__list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-    
-    .social__item {
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    
-    .social__link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color: var(--eighth-background);
-        transition: background-color var(--transition-duration-and-func);
-    
-        &:hover,
-        &:focus {
-            background-color: var(--third-background);
-        }
-    }
-    
-    .social__icon {
-        fill: var(--third-fill);
-    }
-    
     .newsletter {
         display: flex;
         flex-direction: column;
@@ -205,13 +156,13 @@
     
             @include font (700, 24px, 28px);
             letter-spacing: 0.03em;
-            color: var(--fourth-text-color);
+            color: #0080FF;
             display: block;
             margin-bottom: 20px;
         }
     
         .logo__footer {
-            color: var(--third-text-color);
+            color: #FFFF00;
         }
     
         .footer__link:not(:last-child) {
@@ -246,55 +197,6 @@
             &:focus {
                 color: var(--fourth-text-color);
             }
-        }
-    
-        .social {
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            margin-top: 60px;
-            margin-bottom: 20px;
-        }
-    
-        .social__paragraph {
-            @include font (700, 14px, 16px);
-    
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: var(--third-text-color);
-            margin-bottom: 20px;
-        }
-    
-        .social__list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-    
-        .social__item {
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-    
-        .social__link {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background-color: var(--eighth-background);
-            transition: background-color var(--transition-duration-and-func);
-    
-            &:hover,
-            &:focus {
-                background-color: var(--third-background);
-            }
-        }
-    
-        .social__icon {
-            fill: var(--third-fill);
         }
     
         .newsletter {
@@ -375,10 +277,9 @@
 @media screen and (min-width: 768px) {
     .footer__container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
             padding: 60px 0;
-            background-color: var(--second-background);
+            background-color: #FF0080;
             margin-left: auto;
             margin-right: auto;
             width: 100%;
@@ -396,14 +297,14 @@
     
             @include font (700, 24px, 28px);
             letter-spacing: 0.03em;
-            color: var(--fourth-text-color);
+            color: #0080FF;
             display: block;
             margin-top: 60px;
             margin-bottom: 20px;
         }
     
         .logo__footer {
-            color: var(--third-text-color);
+            color: #FFFF00;
         }
     
         .footer__link:not(:last-child) {
@@ -438,55 +339,6 @@
             &:focus {
                 color: var(--fourth-text-color);
             }
-        }
-    
-        .social {
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            margin-top: 65px;
-            margin-bottom: 20px;
-        }
-    
-        .social__paragraph {
-            @include font (700, 14px, 16px);
-    
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: var(--third-text-color);
-            text-align: center;
-            margin-bottom: 20px;
-        }
-    
-        .social__list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-    
-        .social__item {
-            margin-bottom: 20px;
-        }
-    
-        .social__link {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background-color: var(--eighth-background);
-            transition: background-color var(--transition-duration-and-func);
-    
-            &:hover,
-            &:focus {
-                background-color: var(--third-background);
-            }
-        }
-    
-        .social__icon {
-            fill: var(--third-fill);
         }
     
         .newsletter {
@@ -567,7 +419,7 @@
 //1200px-desktop
 @media screen and (min-width: 1200px) {
     .footer {
-        background-color: var(--second-background);
+        background-color: #FF0080;
         width: 100%;
         padding-left: 200px;
     } 
