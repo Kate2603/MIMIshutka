@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIMIshutka</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+    <!-- HEADER-->
+    <header class="header">
+        <div class="page-header container">
+            <nav class="page-nav">
+                <a class="logotype link" href="index.html" lang="en">MI<span
+                        class="logotype__header">MIshutka</span></a>
+                <ul class="menu list">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Головна</a></li>
+                    <li class="menu__item"><a class="menu__link current" href="catalog.html">Товари</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contact.html">Контакти</a></li>
+                    <li class="menu__item"><a class="menu__link" href="delivery.html">Умови доставки та оплати</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn__open js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="open__icon" width="40" height="40">
+                    <use href="./images/sprite.svg#burger-open"></use>
+                </svg>
+            </button>
+
+            <ul class="list contact">
+                <!-- <li class="contact__menu">
+                    <a class="contact__list link" href="mailto:mimishutka.office@gmail.com"><svg
+                            class="contact__icon icon-mail" width="14" height="10">
+                            <use href="./images/sprite.svg#icon-mail"></use>
+                        </svg>mimishutka.office@gmail.com</a>
+                </li> -->
+                <li class="contact__menu">
+                    <a class="contact__list link" href="tel:+380689386071"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                        </svg>+38 068 93 86 071</a>
+                </li>
+                <li class="contact__menu">
+                    <a class="contact__list link" href="tel:+380732977662"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                        </svg>+38 073 29 77 662</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <button class="btn__close js-close-menu" type="button">
+                <svg class="close__icon" width="40" height="40">
+                    <use href="./images/sprite.svg#burger-close"></use>
+                </svg>
+            </button>
+        
+            <ul class="carte list">
+                <li class="carte__point"><a class="carte__reference current" href="index.html">Студія</a></li>
+                <li class="carte__point"><a class="carte__reference" href="products.html">Товари</a></li>
+                <li class="carte__point"><a class="carte__reference" href="contact.html">Контакты</a></li>
+                <li class="carte__point"><a class="carte__reference" href="delivery.html">Умови доставки та оплати</a></li>
+            </ul>
+        
+            <ul class="connect list">
+                <li class="connect__menu">
+                    <a class="connect__tel link" href="tel:+380689386071">+38 068 93 86 071</a>
+                </li>
+                <li class="connect__menu">
+                    <a class="connect__tel link" href="tel:+380732977662">+38 073 29 77 662</a>
+                </li>
+                <li class="connect__menu">
+                    <a class="connect__mail link" href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a>
+                </li>
+            </ul>
+
+        </div> -->
+    </header>
+    
+    <!--MAIN-->
+    <main class="">
+        <section class="section">
+            <div class="container">
+                <ul class="portfolio">
+                    <li class="portfolio__cards">
+                        <a href="rafael.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/bears/raf.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/bears/raf.jpg" media="(min-width: 1200px)" type="image/jpeg"/>
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                    <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                    <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="./images/bears/raf.jpg" alt="зображення м'якого ведмедя сидячого на дивані" width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Рафаель. Розміри 50 см, 80 см, 100см, 120см, 140см, 160см, 180см, 200см. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Плюшевий ведмедик Рафаель</h2>
+                                <p class="subscription__paragraph">Сторінка колекції Рафаель</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="vetli.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/bears/vetli.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/bears/vetli.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="./images/bears/vetli.jpg" alt="зображення великого м'якого ведмедя сидячого поряд з дівчиною " width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Ветлі. Розміри 130см, 160см, 200 см. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик Ветлі</h2>
+                                <p class="subscription__paragraph">Сторінка колекції Ветлі</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/bears/tommi.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/bears/tommi.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="./images/bears/tommi.jpg" alt="зображення великого м'якого ведмедя сидячого поряд з дівчиною" width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Томмі. Розміри 50 см, 75 см, 100см, 150см, 180см. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик Томмі</h2>
+                                <p class="subscription__paragraph">Сторінка колекції Томмі</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="zefir.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/bears/zefir.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/bears/zefir.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="./images/bears/zefir.jpg" alt="зображення великого м'якого ведмедя сидячого поряд з дівчиною " width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Зефір. Розміри 100см, 120см, 250см. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик Зефір</h2>
+                                <p class="subscription__paragraph">Стрінка колекції Зефір</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__cards">
+                        <a href="teddy_potap.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/bears/potap.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/bears/potap.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="./images/bears/potap.jpg" alt="зображення дівчини, яка лежить на руках у великого сидячого м'якого ведмедя" width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Тедді Потап. Розміри 50 см, 100 см, 150 см, 180 см, 250 см.  Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик Тедді Потап</h2>
+                                <p class="subscription__paragraph">Сторінка колекції Тедді Потап</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__cards">
+                        <a href="boid.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/bears/boid.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/bears/boid.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="./images/bears/boid.jpg" alt="зображення хлопчика тримаючого м'якоко ведмедя" width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Бойд. Розміри 70 см, 100 см, 125 см, 160 см, 200 см. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик Бойд</h2>
+                                <p class="subscription__paragraph">Сторінка колекції Бойд</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__cards">
+                        <a href="nestor.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/bears/nestor.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/bears/nestor.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="./images/bears/nestor.jpg" alt="зображення великого м'якого ведмедя сидячого поряд з дівчиною " width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Нестор. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик Нестор</h2>
+                                <p class="subscription__paragraph">Сторінка колекції Нестор</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="" alt="зображення " width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Рафаель 120 см. Висота 80 см. Ширина 50 см. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <!-- <source srcset="" media="(min-width: 768px)" type="image/webp" />
+                                        <source srcset="" media="(min-width: 768px)" type="image/jpeg"/>
+                                        <source srcset="" media="(min-width: 320px)" type="image/webp" />
+                                        <source srcset="." media="(min-width: 320px)" type="image/jpeg"/> -->
+                                    <img class="wrapper__img" src="" alt="зображення " width="450" />
+                                </picture>
+                                <p class="overlay">М'яка іграшка .Плюшевий ведмедик Рафаель 120 см. Висота 80 см. Ширина 50 см. Матеріал штучне хутро. Наповнювач синтепон.</p>
+                            </div>
+
+                            <div class="subscription">
+                                <h2 class="subscription__title">Плюшевий ведмедик</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+<!--FOOTER-->
+<footer class="footer section">
+    <div class="footer__container container">
+        <div class="footer__list">
+            <a class="logo link" href="index.html" lang="en">MI<span class="logo__footer">MIshutka</span></a>
+            <address>
+                <ul class="list">
+                    <li class="footer__link"><a class="footer__address list link"
+                            href="https://goo.gl/maps/iSU6fBPTFKNE2sXM7" target="_blank" rel="noopener noreferrer">м.
+                            Харків,
+                            вул. Полтавський шлях 140</a></li>
+                    <li class="footer__link"><a class="footer__contact list link"
+                            href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a></li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380689386071">+38 068 93 86
+                            071</a>
+                    </li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380732977662">+38 073 29 77
+                            662</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+
+        <!-- <div class="newsletter">
+            <form class="newsletter__form">
+                <p class="newsletter__paragraph">Підпишіться на розсилку</p>
+                <input type="email" name="user_newsletter_email" class="newsletter__inp" placeholder="E-mail">
+                <button type="submit" class="pressbutton">Підписатися<svg width="24" height="24"
+                        class="pressbutton__icon">
+                        <use href="./images/sprite.svg#icon-send"></use>
+                    </svg></button>
+            </form>
+        </div> -->
+    </div>
+</footer>
+    <script src="./js/mobile-menu.js"></script>
+
+</body>
+
+</html>

@@ -23,35 +23,42 @@
                 <a class="logotype link" href="index.html" lang="en">MI<span
                         class="logotype__header">MIshutka</span></a>
                 <ul class="menu list">
-                    <li class="menu__item"><a class="menu__link  current" href="index.html">Головна</a></li>
-                    <li class="menu__item"><a class="menu__link" href="products.html">Товари</a></li>
+                    <li class="menu__item"><a class="menu__link current" href="index.html">Головна</a></li>
+                    <li class="menu__item"><a class="menu__link" href="catalog.html">Товари</a></li>
                     <li class="menu__item"><a class="menu__link" href="contact.html">Контакти</a></li>
-                    <li class="menu__item"><a class="menu__link" href="delivery.html">Умови доставки та оплати</a></li>
+                    <li class="menu__item"><a class="menu__link" href="delivery.html">Доставка</a></li>
                 </ul>
             </nav>
 
-            <button class="btn__open js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+            <!-- <button class="btn__open js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
                 <svg class="open__icon" width="40" height="40">
-                    <use href="./images/sprite.svg#burger-open"></use></svg>
-            </button>
+                    <use href="./images/sprite.svg#burger-open"></use>
+                </svg>
+            </button> -->
 
             <ul class="list contact">
-                <li class="contact__menu">
-                    <a class="contact__list link" href="mailto:info@devstudio.com"><svg class="contact__icon icon-mail"
-                            width="14" height="10">
+                <!-- <li class="contact__menu">
+                    <a class="contact__list link" href="mailto:mimishutka.office@gmail.com"><svg
+                            class="contact__icon icon-mail" width="14" height="10">
                             <use href="./images/sprite.svg#icon-mail"></use>
-                        </svg>info@devstudio.com</a>
+                        </svg>mimishutka.office@gmail.com</a>
+                </li> -->
+                <li class="contact__menu">
+                    <a class="contact__list link" href="tel:+380689386071"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                        </svg>+38 068 93 86 071</a>
                 </li>
                 <li class="contact__menu">
-                    <a class="contact__list link" href="tel:+380961111111"><svg class="contact__icon icon-tel" width="10"
-                            height="14">
+                    <a class="contact__list link" href="tel:+380732977662"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
                             <use href="./images/sprite.svg#icon-tel"></use>
-                        </svg>+38 096 111 11 11</a>
+                        </svg>+38 073 29 77 662</a>
                 </li>
             </ul>
         </div>
 
-        <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <!-- <div class="mobile-menu js-menu-container" id="mobile-menu">
             <button class="btn__close js-close-menu" type="button">
                 <svg class="close__icon" width="40" height="40">
                     <use href="./images/sprite.svg#burger-close"></use>
@@ -67,58 +74,170 @@
         
             <ul class="connect list">
                 <li class="connect__menu">
-                    <a class="connect__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="connect__tel link" href="tel:+380689386071">+38 068 93 86 071</a>
                 </li>
                 <li class="connect__menu">
-                    <a class="connect__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="connect__tel link" href="tel:+380732977662">+38 073 29 77 662</a>
+                </li>
+                <li class="connect__menu">
+                    <a class="connect__mail link" href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a>
                 </li>
             </ul>
 
-        </div>
+        </div> -->
     </header>
+
     <!--MAIN-->
     <main>
         <!--HERO-->
         <section class="hero">
-            <div class="picContainer">
-                <h2 class="visually-hidden"></h2>
-                <div id="info"></div>
-                <div id="image 1" class="img">
-                    <img
-                        src="./images/1.webp" />
+            <div class="slider">
+                <div class="slider__wrapper">
+                    <div class="slider__items">
+                        <div class="slider__item">
+                            <picture>
+                                <source srcset="./images/1.webp" media="(min-width: 1280px)" />
+                                <img src="./images/1.jpg" alt="banner" />
+                            </picture>
+                            <picture>
+                                <source srcset="./images/2.webp" media="(min-width: 1280px)" />
+                                <img src="./images/2.jpg" alt="banner" />
+                            </picture>
+                            <picture>
+                                <source srcset="./images/3.webp" media="(min-width: 1280px)" />
+                                <img src="./images/3.jpg" alt="banner" />
+                            </picture>
+                            <picture>
+                                <source srcset="./images/4.webp" media="(min-width: 1280px)" />
+                                <img src="./images/4.jpg" alt="banner" />
+                            </picture>
+                            <picture>
+                                <source srcset="./images/5.webp" media="(min-width: 1280px)" />
+                                <img src="./images/5.jpg" alt="banner" />
+                            </picture>
+                        </div>
+                    </div>
                 </div>
-                <div id="image 2" class="img">
-                    <img
-                        src="./images/2.webp" />
-                </div>
-                <div id="image 3" class="img">
-                    <img
-                        src="./images/3.webp" />
-                </div>
-                <div id="image 4" class="img">
-                    <img
-                        src="./images/4.webp" />
-                </div>
-                <div id="image 5" class="img">
-                    <img src="./images/5.webp" />
-                </div>
-                <div class="left" onclick="left()"></div>
-                <div class="right" onclick="right()"></div>
-                <div class="dots">
-                    <div class="dot a1"></div>
-                    <div class="dot a2"></div>
-                    <div class="dot a3"></div>
-                    <div class="dot a4"></div>
-                    <div class="dot a5"></div>
-                </div>
+                <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
             </div>
-            
-            
+                        
             <!-- <button class="modal-btn modal-btn-container" type="button" data-modal-open>Замовити послугу</button> -->
         </section>
-        <!--ABOUT-->
+    <section class="sale">
+        <div class="container sale__container">
+            <h2 class="sale__title">Знижки</h2>
+            <ul class="sale__list">
+                <li class="sale__item">
+                    <a class="sale__item-link" href="order.html">
+                        <img class="sale__img" srcset="" src="" alt="" width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale__item">
+                    <a class="sale__item-link" href="order.html">
+                        <img class="sale__img" srcset="" src="" alt=""
+                            width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale__item">
+                    <a class="sale__item-link" href="order.html">
+                        <img class="sale__img" srcset="" src="" alt=""
+                            width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale__item">
+                    <a class="sale__item-link" href="order.html">
+                        <img class="sale__img" srcset=""
+                            alt="" width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale__item">
+                    <a class="sale__item-link" href="order.html">
+                        <img class="sale__img" srcset="" src="" alt=""
+                            width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name indent-down"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale__item">
+                    <a class="sale__item-link" href="order.html">
+                        <img class="sale__img" srcset="" src=""
+                            alt="" width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale__item">
+                    <a class="sale__item-link" href="order.html">
+                        <img class="sale__img" srcset="" src=""
+                            alt="" width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale__item">
+                    <a class="sale__item-link" href="./order.html">
+                        <img class="sale__img" srcset="" src="" alt=""
+                            width="285" />
+                        <div class="sale__description">
+                            <p class="sale__product-name"></p>
+                            <div class="sale__wrap">
+                                <p class="sale__previous-price"></p>
+                                <p class="sale__product-price"></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <a class="sale__btn" href="order.html">Дивитися всі</a>
+    </section>
         
     </main>
+
     <!--FOOTER-->
 <footer class="footer section">
     <div class="footer__container container">
@@ -128,28 +247,28 @@
             <address>
                 <ul class="list">
                     <li class="footer__link"><a class="footer__address list link"
-                            href="https://goo.gl/maps/ARjSeqXz5D1srHnS8" target="_blank" rel="noopener noreferrer">м.
-                            Київ, пр-т Лесі Українки, 26</a></li>
+                            href="https://goo.gl/maps/iSU6fBPTFKNE2sXM7" target="_blank" rel="noopener noreferrer">м. Харків,
+                            вул. Полтавський шлях 140</a></li>
                     <li class="footer__link"><a class="footer__contact list link"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380961111111">+38
-                            096 111 11
-                            11</a>
+                            href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a></li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380689386071">+38 068 93 86 071</a>
+                    </li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380732977662">+38 073 29 77 662</a>
                     </li>
                 </ul>
             </address>
         </div>
 
-        <div class="newsletter">
+        <!-- <div class="newsletter">
             <form class="newsletter__form">
                 <p class="newsletter__paragraph">Підпишіться на розсилку</p>
-                <input type="email" name="user_newsletter_email" class="newsletter__input" placeholder="E-mail">
+                <input type="email" name="user_newsletter_email" class="newsletter__inp" placeholder="E-mail">
                 <button type="submit" class="pressbutton">Підписатися<svg width="24" height="24"
                         class="pressbutton__icon">
                         <use href="./images/sprite.svg#icon-send"></use>
                     </svg></button>
             </form>
-        </div>
+        </div> -->
     </div>
 </footer>
 
@@ -205,7 +324,8 @@
             </form>
         </div>
     </div> -->
-    <script src="./js/swipe.js"></script>
+    <script src="slider.js"></script>
+
     <!-- <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script> -->
     

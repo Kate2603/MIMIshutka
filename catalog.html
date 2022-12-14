@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIMIshutka</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+    <!-- HEADER-->
+    <header class="header">
+        <div class="page-header container">
+            <nav class="page-nav">
+                <a class="logotype link" href="index.html" lang="en">MI<span
+                        class="logotype__header">MIshutka</span></a>
+                <ul class="menu list">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Головна</a></li>
+                    <li class="menu__item"><a class="menu__link current" href="catalog.html">Товари</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contact.html">Контакти</a></li>
+                    <li class="menu__item"><a class="menu__link" href="delivery.html">Доставка</a></li>
+                </ul>
+            </nav>
+
+            <!-- <button class="btn__open js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="open__icon" width="40" height="40">
+                    <use href="./images/sprite.svg#burger-open"></use>
+                </svg>
+            </button> -->
+
+            <ul class="list contact">
+                <!-- <li class="contact__menu">
+                    <a class="contact__list link" href="mailto:mimishutka.office@gmail.com"><svg
+                            class="contact__icon icon-mail" width="14" height="10">
+                            <use href="./images/sprite.svg#icon-mail"></use>
+                        </svg>mimishutka.office@gmail.com</a>
+                </li> -->
+                <li class="contact__menu">
+                    <a class="contact__list link" href="tel:+380689386071"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                        </svg>+38 068 93 86 071</a>
+                </li>
+                <li class="contact__menu">
+                    <a class="contact__list link" href="tel:+380732977662"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                        </svg>+38 073 29 77 662</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <button class="btn__close js-close-menu" type="button">
+                <svg class="close__icon" width="40" height="40">
+                    <use href="./images/sprite.svg#burger-close"></use>
+                </svg>
+            </button>
+        
+            <ul class="carte list">
+                <li class="carte__point"><a class="carte__reference current" href="index.html">Студія</a></li>
+                <li class="carte__point"><a class="carte__reference" href="products.html">Товари</a></li>
+                <li class="carte__point"><a class="carte__reference" href="contact.html">Контакты</a></li>
+                <li class="carte__point"><a class="carte__reference" href="delivery.html">Умови доставки та оплати</a></li>
+            </ul>
+        
+            <ul class="connect list">
+                <li class="connect__menu">
+                    <a class="connect__tel link" href="tel:+380689386071">+38 068 93 86 071</a>
+                </li>
+                <li class="connect__menu">
+                    <a class="connect__tel link" href="tel:+380732977662">+38 073 29 77 662</a>
+                </li>
+                <li class="connect__menu">
+                    <a class="connect__mail link" href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a>
+                </li>
+            </ul>
+
+        </div> -->
+    </header>
+
+    <!--MAIN-->
+    <main class="">
+        <section class="section">
+            <div class="container">
+                <h1 class="visually-hidden"></h1>
+                
+                <ul class="portfolio">
+                    <li class="portfolio__cards">
+                        <a href="bears.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source
+                                        srcset="./images/catalog/potap.webp"
+                                        media="(min-width: 1200px)" type="image/webp" />
+                                    <source
+                                        srcset="./images/catalog/potap.jpg"
+                                        media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/potap.jpg"
+                                        alt="зображення дівчини, яка лежить на руках у великого сидячого м'якого ведмедя" width="450" />
+                                </picture>
+                            </div>
+    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Ведмеді</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="elephants.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/elephants.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/elephants.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/elephants.jpg"
+                                        alt="зображення великого м'якого рожевого слона з дівчиною" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Слони</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li class="portfolio__cards">
+                        <a href="rabbits.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/rabbits.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/rabbits.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/rabbits.jpg" alt="зображення іграшкових кроликів"
+                                        width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Кролики</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="dogs.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/dogs.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/dogs.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/dogs.jpg" alt="зображення хлопчик тримає м'якого собаку хаскі" width="450" />
+                                </picture>
+                            </div>
+                                        
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Собаки</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="raccoons.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/raccoons.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/raccoons.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/raccoons.jpg"
+                                        alt="зображення м'якого єнота, що лежить на дивані" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Єноти</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="hippos.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/hippos.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/hippos.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/hippos.jpg" alt="зображення м'якої іграшки бегемота" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Бегемоти</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li class="portfolio__cards">
+                        <a href="crocodiles.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/crocodiles.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/crocodiles.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/crocodiles.jpg" alt="зображення іграшкових крокодилів" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Крокодили</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="birds.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/birds.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/birds.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/birds.jpg" alt="зображення іграшкової сови рожевого кольору" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Птахи</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="animals.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/animals.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/animals.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/animals.jpg" alt="зображення іграшкової білки" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Різні тварини</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li class="portfolio__cards">
+                        <a href="smeshariki.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/smeshariki.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/smeshariki.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/smeshariki.jpg" alt="зображення м'якої іграшки смішарика лосяша" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Смішарики</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__cards">
+                        <a href="pillow.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/pillow2.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/pillow2.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/pillow2.jpg" alt="зображення м'якої іграшкової подушки у вигляді серця" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Подушки-тваринки</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__cards">
+                        <a href="backpacks.html" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="./images/catalog/backpacks.webp" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="./images/catalog/backpacks.jpg" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="./images/catalog/backpacks.jpg" alt="зображення хлопчик тримає дитячий рюкзак-іграшку" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list">Рюкзаки,сумки-тварини</h2>
+                                <p class="subscription__paragraph">Сторінка колекції</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- <li class="portfolio__cards">
+                        <a href="" class="portfolio__link list link">
+                            <div class="wrapper">
+                                <picture>
+                                    <source srcset="" media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="" media="(min-width: 1200px)" type="image/jpeg" />
+                                    <img class="wrapper__img" src="" alt="" width="450" />
+                                </picture>
+                            </div>
+                    
+                            <div class="subscription">
+                                <h2 class="subscription__title list"></h2>
+                                <p class="subscription__paragraph"></p>
+                            </div>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+
+<!--FOOTER-->
+<footer class="footer section">
+    <div class="footer__container container">
+        <div class="footer__list">
+            <a class="logo link" href="index.html" lang="en">MI<span class="logo__footer">MIshutka</span></a>
+            <address>
+                <ul class="list">
+                    <li class="footer__link"><a class="footer__address list link"
+                            href="https://goo.gl/maps/iSU6fBPTFKNE2sXM7" target="_blank" rel="noopener noreferrer">м.
+                            Харків,
+                            вул. Полтавський шлях 140</a></li>
+                    <li class="footer__link"><a class="footer__contact list link"
+                            href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a></li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380689386071">+38 068 93 86
+                            071</a>
+                    </li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380732977662">+38 073 29 77
+                            662</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+
+        <!-- <div class="newsletter">
+            <form class="newsletter__form">
+                <p class="newsletter__paragraph">Підпишіться на розсилку</p>
+                <input type="email" name="user_newsletter_email" class="newsletter__inp" placeholder="E-mail">
+                <button type="submit" class="pressbutton">Підписатися<svg width="24" height="24"
+                        class="pressbutton__icon">
+                        <use href="./images/sprite.svg#icon-send"></use>
+                    </svg></button>
+            </form>
+        </div> -->
+    </div>
+</footer>
+
+    <!-- <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-close-btn" data-modal-close>
+                    <svg width="11" height="11" class="modal-close-btn-icon">
+                        <use href="./images/sprite.svg#icon-close-btn"></use>
+                    </svg>
+                </button>
+                
+                <form class="modal-form">
+                    <p class="modal-paragraph">Залиште свої дані, ми вам передзвонимо</p>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Ім'я</span>
+                        <span class="modal-form-input-wrapper">
+                            <input type="text" name="user_name" class="modal-form-input" required pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$" minlength="2">
+                            <svg width="18" height="18" class="modal-form-input-icon">
+                                <use href="./images/sprite.svg#icon-person"></use>
+                            </svg>
+                        </span>
+                    </label>
+    
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Телефон</span>
+                        <span class="modal-form-input-wrapper">
+                            <input type="tel" name="user_phone" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                                title="xxx-xxx-xx-xx">
+                            <svg width="18" height="18" class="modal-form-input-icon">
+                                <use href="./images/sprite.svg#icon-phone"></use>
+                            </svg>
+                        </span>
+                    </label>
+    
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Пошта</span>
+                        <span class="modal-form-input-wrapper">
+                            <input type="email" name="user_email" class="modal-form-input" required>
+                            <svg width="18" height="18" class="modal-form-input-icon">
+                                <use href="./images/sprite.svg#icon-email"></use>
+                            </svg>
+                        </span>
+                    </label>
+    
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Коментар</span>
+                        <textarea name="user_message" class="modal-form-message" placeholder="Введіть текст"></textarea>
+                    </label>
+    
+                    <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visually-hidden">
+                    <label for="user-policy" class="modal-form-check-desc">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-check-link" href="">Умови договору</a></label>
+                    <button type="submit" class="modal-form-submit">Відправити</button>
+                </form>
+            </div>
+        </div> -->
+    <script src="./js/swipe.js"></script>
+    <!-- <script src="./js/mobile-menu.js"></script>
+        <script src="./js/modal.js"></script> -->
+
+</body>
+
+</html>
