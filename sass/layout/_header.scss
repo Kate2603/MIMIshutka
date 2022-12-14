@@ -184,7 +184,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     .header {
             border-bottom: 1px solid #ECECEC;
         }
@@ -285,8 +285,13 @@
     
 }
 
-//1200-desktop
-@media screen and (min-width: 1200px) {
+//1280-desktop
+@media screen and (min-width: 1280px) {
+    .header {
+        background-color: #FF0080;
+        color: #01DF01;
+    } 
+
     .logotype {
         margin-right: 93px;
         padding-top: 24px;
@@ -294,7 +299,7 @@
     }
 
     .menu {
-        margin-left: 92px;
+        margin-left: 80px;
     }
 
         .current {

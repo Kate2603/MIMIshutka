@@ -80,66 +80,40 @@
     <main>
         <!--HERO-->
         <section class="hero">
-            <section class="section-banners">
-                <h2 class="visually-hidden">Everything you want</h2>
-                <div class="swiper mySwiper">
-                    <ul class="swiper-wrapper">
-                        <li class="swiper-slide section-banners__banner">
-                            <div class="section-banners__img-box">
-                                <picture>
-                                    <source srcset="./images/484053461_484053461.webp" media="(min-width: 1280px)" />
-                                    <source srcset="./images/484053461_484053461.webp" media="(min-width: 768px)" />
-                                    <source srcset="./images/484053461_484053461.webp" media="(max-width: 767px)" />
-                                    <img src="./images/484053461_484053461.webp" alt="banner" />
-                                </picture>
-                            </div>
-                        </li>
-                        <li class="swiper-slide section-banners__banner">
-                            <div class="section-banners__img-box">
-                                <picture>
-                                    <source srcset="./images/484053481_484053481.webp" media="(min-width: 1280px)" />
-                                    <source srcset="./images/484053481_484053481.webp" media="(min-width: 768px)" />
-                                    <source srcset="./images/484053481_484053481.webp" media="(max-width: 767px)" />
-                                    <img src="./images/484053481_484053481.webp" alt="banner" />
-                                </picture>
-                            </div>
-                        </li>
-                        <li class="swiper-slide section-banners__banner">
-                            <div class="section-banners__img-box">
-                                <picture>
-                                    <source srcset="./images/484053553_484053553.webp" media="(min-width: 1280px)" />
-                                    <source srcset="./images/484053553_484053553.webp" media="(min-width: 768px)" />
-                                    <source srcset="./images/484053553_484053553.webp" media="(max-width: 767px)" />
-                                    <img src="./images/484053553_484053553.webp" alt="banner" />
-                                </picture>
-                            </div>
-                        </li>
-                        <li class="swiper-slide section-banners__banner">
-                            <div class="section-banners__img-box">
-                                <picture>
-                                    <source srcset="./images/484053577_484053577.webp" media="(min-width: 1280px)" />
-                                    <source srcset="./images/484053577_484053577.webp" media="(min-width: 768px)" />
-                                    <source srcset="./images/484053577_484053577.webp" media="(max-width: 767px)" />
-                                    <img src="./images/484053577_484053577.webp" alt="banner" />
-                                </picture>
-                            </div>
-                        </li>
-                        <li class="swiper-slide section-banners__banner">
-                            <div class="section-banners__img-box">
-                                <picture>
-                                    <source srcset="./images/484053635_484053635.webp" media="(min-width: 1280px)" />
-                                    <source srcset="./images/484053635_484053635.webp" media="(min-width: 768px)" />
-                                    <source srcset="./images/484053635_484053635.webp" media="(max-width: 767px)" />
-                                    <img src="./images/484053635_484053635.webp" alt="banner" />
-                                </picture>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="swiper-pagination"></div>
+            <div class="picContainer">
+                <h2 class="visually-hidden"></h2>
+                <div id="info"></div>
+                <div id="image 1" class="img">
+                    <img
+                        src="./images/1.webp" />
                 </div>
-            </section>
+                <div id="image 2" class="img">
+                    <img
+                        src="./images/2.webp" />
+                </div>
+                <div id="image 3" class="img">
+                    <img
+                        src="./images/3.webp" />
+                </div>
+                <div id="image 4" class="img">
+                    <img
+                        src="./images/4.webp" />
+                </div>
+                <div id="image 5" class="img">
+                    <img src="./images/5.webp" />
+                </div>
+                <div class="left" onclick="left()"></div>
+                <div class="right" onclick="right()"></div>
+                <div class="dots">
+                    <div class="dot a1"></div>
+                    <div class="dot a2"></div>
+                    <div class="dot a3"></div>
+                    <div class="dot a4"></div>
+                    <div class="dot a5"></div>
+                </div>
             </div>
-
+            
+            
             <!-- <button class="modal-btn modal-btn-container" type="button" data-modal-open>Замовити послугу</button> -->
         </section>
         <!--ABOUT-->
@@ -179,7 +153,7 @@
     </div>
 </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg width="11" height="11" class="modal-close-btn-icon">
@@ -230,10 +204,10 @@
                 <button type="submit" class="modal-form-submit">Відправити</button>
             </form>
         </div>
-    </div>
+    </div> -->
     <script src="./js/swipe.js"></script>
-    <script src="./js/mobile-menu.js"></script>
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script> -->
     
 </body>
 
