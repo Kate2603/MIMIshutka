@@ -12,6 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
@@ -24,7 +27,8 @@
                         class="logotype__header">MIshutka</span></a>
                 <ul class="menu list">
                     <li class="menu__item"><a class="menu__link" href="index.html">Головна</a></li>
-                    <li class="menu__item"><a class="menu__link current" href="catalog.html">Товари</a></li>
+                    <li class="menu__item"><a class="menu__link" href="catalog.html">Вітрина</a></li>
+                    <li class="menu__item"><a class="menu__link current" href="order.html">Акції</a></li>
                     <li class="menu__item"><a class="menu__link" href="contact.html">Контакти</a></li>
                     <li class="menu__item"><a class="menu__link" href="delivery.html">Доставка</a></li>
                 </ul>
@@ -87,30 +91,28 @@
         </div> -->
     </header>
 
-    <main>
-        <div class="subscription">
-            <h2 class="subscription__title list">Технокряк</h2>
-            <p class="subscription__paragraph">Веб-сайт</p>
-        </div>
-        </a>
-        </li>
+    <main class="container section">
+        <ul>
         <li class="portfolio__cards">
-            <a href="" class="portfolio__link list link">
-                <div class="wrapper">
+            <a href="boid.html" class="portfolio__link list link">
+                <div class="work-list-wrapper">
                     <picture>
-                        <source srcset=""
+                        <source srcset="./images/bears/boid.webp"
                             media="(min-width: 1200px)" type="image/webp" />
-                        <source srcset=""
+                        <source srcset="./images/bears/boid.jpg"
                             media="(min-width: 1200px)" type="image/jpeg" />
-                        <img class="wrapper__img" src=""
-                            alt="зображення " width="450" />
+                        <img class="wrapper__img" src="./images/bears/boid.jpg"
+                            alt="зображення іграшки м'якого ведмедя" width="450" />
                     </picture>
-                    <p class="work-overlay">Знижка 8%</p>
+                    <p class="work-overlay">Знижка 17%</p>
                 </div>
         
                 <div class="subscription">
-                    <h2 class="subscription__title">Постер New Orlean vs Golden Star</h2>
-                    <p class="subscription__paragraph">Дизайн</p>
+                    <h2 class="subscription__title">Мішка Бойд 100 см/ 60 см</h2>
+                    <div class="price"><span>825 грн</span>699 грн</div>
+                    <a class="add-to-cart" href="basket.html">
+                        <i class="fas fa-shopping-cart"></i> <span>ADD TO CART</span>
+                    </a>
                 </div>
             </a>
         </li>

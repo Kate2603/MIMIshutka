@@ -46,7 +46,8 @@
     .portfolio__cards {
         width: 450px;
         height: auto;
-        border: 1px solid #EEEEEE;
+        text-decoration: none;
+        border: 1px solid #ff98f3;
         transition: box-shadow var(--transition-duration-and-func);
 
         &:hover {
@@ -90,7 +91,7 @@
     }
 
     .subscription {
-        border: 1px solid var(--sixth-border-color);
+        border: 1px solid #ff98f3;
         border-top: none;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -164,7 +165,7 @@
     .portfolio__cards {
         width: calc((100% - 30px)/2);
         height: auto;
-        border: 1px solid #EEEEEE;
+        border: 1px solid #ff98f3;
         transition: box-shadow var(--transition-duration-and-func);
 
         &:hover {
@@ -193,7 +194,7 @@
 
         letter-spacing: 0.02em;
         color: var(--third-text-color);
-        background-color: var(--tenth-background);
+        background-color: #ff98f3;
         width: 100%;
         height: 100%;
         padding-top: 63px;
@@ -208,7 +209,7 @@
     }
 
     .subscription {
-        border: 1px solid var(--sixth-border-color);
+        border: 1px solid #ff98f3;
         border-top: none;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -249,7 +250,80 @@
         width: calc((100% - 60px) / 3);
     }
 
+    .work-list-wrapper {
+        position: relative;
+    }
+
+    .work-overlay {
+        position: absolute;
+            bottom: 0;
+            left: 0;
+            overflow: auto;
+        
+            @include font (700, 14px, 16px);
+        
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--third-text-color);
+            background-color: var(--eleventh-background);
+            width: 100%;
+            height: 70px;
+            padding-top: 27px;
+            padding-bottom: 27px;
+            padding-left: auto;
+            padding-right: auto;
+    }
+
     .subscription__title {
         @include font (700, 18px, 36px);
     }
+
+    .price span {
+        color: #7a7a7a;
+        font-size: 15px;
+        text-decoration-line: overline;
+        margin-right: 5px;
+        display: inline-block;
+    }
+    
+    .add-to-cart {
+        color: #000;
+        background: #fff;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto;
+        border: 1px solid #033772;
+        display: block;
+        transition: all .3s ease;
+    }
+        
+    .add-to-cart:hover {
+        color: #fff;
+        background: #033772;
+    }
+        
+    .add-to-cart i {
+        color: #fff;
+        background-color: #033772;
+        text-align: center;
+        line-height: 35px;
+        height: 35px;
+        width: 35px;
+        border-right: 1px solid #fff;
+        display: inline-block;
+    }
+        
+    .add-to-cart span {
+        text-align: center;
+        line-height: 35px;
+        height: 35px;
+        width: calc(100% - 40px);
+        padding: 0 6px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
 }

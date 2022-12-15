@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIMIshutka</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+</head>
+
+<body>
+    <!-- HEADER-->
+    <header class="header">
+        <div class="page-header container">
+            <nav class="page-nav">
+                <a class="logotype link" href="index.html" lang="en">MI<span
+                        class="logotype__header">MIshutka</span></a>
+                <ul class="menu list">
+                    <li class="menu__item"><a class="menu__link current" href="index.html">Головна</a></li>
+                    <li class="menu__item"><a class="menu__link" href="catalog.html">Вітрина</a></li>
+                    <li class="menu__item"><a class="menu__link" href="order.html">Акції</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contact.html">Контакти</a></li>
+                    <li class="menu__item"><a class="menu__link" href="delivery.html">Доставка</a></li>
+                    <li class="menu__item"><a class="menu__link" href="basket.html">Корзина</a></li>
+                </ul>
+            </nav>
+
+            <!-- <button class="btn__open js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="open__icon" width="40" height="40">
+                    <use href="./images/sprite.svg#burger-open"></use>
+                </svg>
+            </button> -->
+
+            <ul class="list contact">
+                <!-- <li class="contact__menu">
+                    <a class="contact__list link" href="mailto:mimishutka.office@gmail.com"><svg
+                            class="contact__icon icon-mail" width="14" height="10">
+                            <use href="./images/sprite.svg#icon-mail"></use>
+                        </svg>mimishutka.office@gmail.com</a>
+                </li> -->
+                <li class="contact__menu">
+                    <a class="contact__list link" href="tel:+380689386071"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                        </svg>+38 068 93 86 071</a>
+                </li>
+                <li class="contact__menu">
+                    <a class="contact__list link" href="tel:+380732977662"><svg class="contact__icon icon-tel"
+                            width="10" height="14">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                        </svg>+38 073 29 77 662</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <button class="btn__close js-close-menu" type="button">
+                <svg class="close__icon" width="40" height="40">
+                    <use href="./images/sprite.svg#burger-close"></use>
+                </svg>
+            </button>
+        
+            <ul class="carte list">
+                <li class="carte__point"><a class="carte__reference current" href="index.html">Студія</a></li>
+                <li class="carte__point"><a class="carte__reference" href="products.html">Товари</a></li>
+                <li class="carte__point"><a class="carte__reference" href="contact.html">Контакты</a></li>
+                <li class="carte__point"><a class="carte__reference" href="delivery.html">Умови доставки та оплати</a></li>
+            </ul>
+        
+            <ul class="connect list">
+                <li class="connect__menu">
+                    <a class="connect__tel link" href="tel:+380689386071">+38 068 93 86 071</a>
+                </li>
+                <li class="connect__menu">
+                    <a class="connect__tel link" href="tel:+380732977662">+38 073 29 77 662</a>
+                </li>
+                <li class="connect__menu">
+                    <a class="connect__mail link" href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a>
+                </li>
+            </ul>
+
+        </div> -->
+    </header>
+
+    <!--MAIN-->
+    <main>
+        <!--HERO-->
+        <section class="hero">
+            <div class="fotorama" data-transition="crossfade" data-autoplay="true" data-loop="true">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+            </div>
+                        
+            <!-- <button class="modal-btn modal-btn-container" type="button" data-modal-open>Замовити послугу</button> -->
+        </section>
+    <section class="sale">
+        <section class="sale">
+            <div class="container sale__container">
+                <div class="sale__top-line-container">
+                    <div class="sale__top-line sale__top-left-part"></div>
+                    <div class="sale__top-line sale__top-right-part"></div>
+                </div>
+                <div class="sale__bottom-line-container">
+                    <div class="sale__bottom-line sale__bottom-left-part"></div>
+                    <div class="sale__bottom-line sale__bottom-right-part"></div>
+                </div>
+                <h2 class="sale__title">Sale</h2>
+                <ul class="sale__list">
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/main-headsets-1x.jpg 1x,
+                      ./images/main/main-headsets-2x.jpg 2x
+                    " src="./images/main/main-headsets-1x.jpg" alt="Xiberia K9 PRO PC Headset" width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name">Xiberia K9 PRO PC Headset</p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">65.14 USD</p>
+                                    <p class="sale__product-price">55.14 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/g95-light-surround-gaming-headset51_1x.jpg 1x,
+                      ./images/main/g95-light-surround-gaming-headset51_2x.jpg 2x
+                    " src="./images/main/g95-light-surround-gaming-headset51_1x.jpg" alt="G95 Light Surround Gaming Headset"
+                                width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name">G95 Light Surround Gaming Headset</p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">72.78 USD</p>
+                                    <p class="sale__product-price">51.78 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/rgb-led-backlit-mechanical-keyboard_1x.jpg 1x,
+                      ./images/main/rgb-led-backlit-mechanical-keyboard_2x.jpg 2x
+                    " src="./images/main/rgb-led-backlit-mechanical-keyboard_1x.jpg" alt="RGB LED Backlit Mechanical Keyboard"
+                                width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name">
+                                    RGB LED Backlit Mechanical Keyboard
+                                </p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">156.00 USD</p>
+                                    <p class="sale__product-price">116.00 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/k569-rgb-led-backlit-mechanical-keyboard_1x.jpg 1x,
+                      ./images/main/k569-rgb-led-backlit-mechanical-keyboard_2x.jpg 2x
+                    " src="./images/main/k569-rgb-led-backlit-mechanical-keyboard_1x.jpg"
+                                alt="K569 RGB LED Backlit Mechanical Keyboard" width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name">
+                                    K569 RGB LED Backlit Mechanical Keyboard
+                                </p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">156.98 USD</p>
+                                    <p class="sale__product-price">112.16 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/g95-light-surround-gaming-headset_1x.jpg 1x,
+                      ./images/main/g95-light-surround-gaming-headset_2x.jpg 2x
+                    " src="./images/main/g95-light-surround-gaming-headset_1x.jpg" alt="G95 Light Surround Gaming Headset"
+                                width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name indent-down">
+                                    G95 Light Surround Gaming Headset
+                                </p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">78.98 USD</p>
+                                    <p class="sale__product-price">50.98 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/darshion-3200-dpi-mz-17-gaming-mouse_1x.jpg 1x,
+                      ./images/main/darshion-3200-dpi-mz-17-gaming-mouse_2x.jpg 2x
+                    " src="./images/main/darshion-3200-dpi-mz-17-gaming-mouse_1x.jpg"
+                                alt="DARSHION 3200 DPI MZ-17 Gaming Mouse" width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name">
+                                    DARSHION 3200 DPI MZ-17 Gaming Mouse
+                                </p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">48.00 USD</p>
+                                    <p class="sale__product-price">32.00 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/malloom-1200-dpi-2.4ghz-wireless-mouse_1x.jpg 1x,
+                      ./images/main/malloom-1200-dpi-2.4ghz-wireless-mouse_2x.jpg 2x
+                    " src="./images/main/malloom-1200-dpi-2.4ghz-wireless-mouse_1x.jpg"
+                                alt="Malloom 1200 DPI 2.4Ghz Wireless Mouse" width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name">
+                                    Malloom 1200 DPI 2.4Ghz Wireless Mouse
+                                </p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">44.24 USD</p>
+                                    <p class="sale__product-price">29.93 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a class="sale__item-link" href="./order.html">
+                            <img class="sale__img" srcset="
+                      ./images/main/logitech-g230-stereo-gaming-headset_1x.jpg 1x,
+                      ./images/main/logitech-g230-stereo-gaming-headset_2x.jpg 2x
+                    " src="./images/main/logitech-g230-stereo-gaming-headset_1x.jpg" alt="Logitech G230 Stereo Gaming Headset"
+                                width="285" />
+                            <div class="sale__description">
+                                <p class="sale__product-name">
+                                    Logitech G230 Stereo Gaming Headset
+                                </p>
+                                <div class="sale__wrap">
+                                    <p class="sale__previous-price">160.00 USD</p>
+                                    <p class="sale__product-price">110.00 USD</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="sale__btn" href="./accessories.html">View all</a>
+        </section>
+    </section>
+        
+    </main>
+
+    <!--FOOTER-->
+<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__list">
+            <a class="logo link" href="index.html" lang="en">MI<span
+                    class="logo__footer">MIshutka</span></a>
+            <address>
+                <ul class="list">
+                    <li class="footer__link"><a class="footer__address list link"
+                            href="https://goo.gl/maps/iSU6fBPTFKNE2sXM7" target="_blank" rel="noopener noreferrer">м. Харків,
+                            вул. Полтавський шлях 140</a></li>
+                    <li class="footer__link"><a class="footer__contact list link"
+                            href="mailto:mimishutka.office@gmail.com">mimishutka.office@gmail.com</a></li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380689386071">+38 068 93 86 071</a>
+                    </li>
+                    <li class="footer__link"><a class="footer__contact list link" href="tel:+380732977662">+38 073 29 77 662</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+
+        <!-- <div class="newsletter">
+            <form class="newsletter__form">
+                <p class="newsletter__paragraph">Підпишіться на розсилку</p>
+                <input type="email" name="user_newsletter_email" class="newsletter__inp" placeholder="E-mail">
+                <button type="submit" class="pressbutton">Підписатися<svg width="24" height="24"
+                        class="pressbutton__icon">
+                        <use href="./images/sprite.svg#icon-send"></use>
+                    </svg></button>
+            </form>
+        </div> -->
+    </div>
+</footer>
+
+    <!-- <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg width="11" height="11" class="modal-close-btn-icon">
+                    <use href="./images/sprite.svg#icon-close-btn"></use>
+                </svg>
+            </button>
+            
+            <form class="modal-form">
+                <p class="modal-paragraph">Залиште свої дані, ми вам передзвонимо</p>
+                <label class="modal-form-field">
+                    <span class="modal-form-input-desc">Ім'я</span>
+                    <span class="modal-form-input-wrapper">
+                        <input type="text" name="user_name" class="modal-form-input" required pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$" minlength="2">
+                        <svg width="18" height="18" class="modal-form-input-icon">
+                            <use href="./images/sprite.svg#icon-person"></use>
+                        </svg>
+                    </span>
+                </label>
+
+                <label class="modal-form-field">
+                    <span class="modal-form-input-desc">Телефон</span>
+                    <span class="modal-form-input-wrapper">
+                        <input type="tel" name="user_phone" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                            title="xxx-xxx-xx-xx">
+                        <svg width="18" height="18" class="modal-form-input-icon">
+                            <use href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </span>
+                </label>
+
+                <label class="modal-form-field">
+                    <span class="modal-form-input-desc">Пошта</span>
+                    <span class="modal-form-input-wrapper">
+                        <input type="email" name="user_email" class="modal-form-input" required>
+                        <svg width="18" height="18" class="modal-form-input-icon">
+                            <use href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                    </span>
+                </label>
+
+                <label class="modal-form-field">
+                    <span class="modal-form-input-desc">Коментар</span>
+                    <textarea name="user_message" class="modal-form-message" placeholder="Введіть текст"></textarea>
+                </label>
+
+                <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visually-hidden">
+                <label for="user-policy" class="modal-form-check-desc">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-check-link" href="">Умови договору</a></label>
+                <button type="submit" class="modal-form-submit">Відправити</button>
+            </form>
+        </div>
+    </div> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <!-- <script src="slider.js"></script> -->
+
+    <!-- <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script> -->
+    
+</body>
+
+</html>
